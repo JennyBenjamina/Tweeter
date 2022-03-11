@@ -37,7 +37,7 @@ def to_countdf(df):
 
     return count_df
 
-def to_csv(dat, col):
+def to_csv(dat=[], col=[]):
     '''
     this turns objects to a csv file
     Args:
@@ -49,5 +49,8 @@ def to_csv(dat, col):
     current_dir = os.getcwd()
     if len(dat) != len(col):
         col.append('Id')
-    df = pd.DataFrame(dat, columns=col)
+    try:
+        df = pd.DataFrame(dat, columns=col)
+    except: 
+        print('Data and columns must be valid!')
     return df.to_csv(current_dir + r'\homeTweets.csv')#the r is 'raw'. file path
