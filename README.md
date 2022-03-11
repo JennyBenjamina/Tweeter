@@ -13,3 +13,5 @@ GitHub Pages
 3. get_tweets methodd finds tweets related to the keyword(s) given.
 4. get_my_tweets method grabs all the tweets from my homepage twitter.
 5. to_graph method creates a graph with the dataframe given.
+
+**main.ipynb** uses most of the methods and class
