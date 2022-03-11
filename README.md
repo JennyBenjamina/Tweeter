@@ -4,26 +4,18 @@ You can use the [editor on GitHub](https://github.com/JennyBenjamina/jennybenjam
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### jennybenjamina.github.io
+GitHub Pages
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Pic 16A Tweeter
+## Authors
+**JennyBenjamina**,
+**Jamie1130**
 
-```markdown
-Syntax highlighted code block
+* Our project scrapes tweets from Twitter and turns it into a dataframe, a graph, or a csv file.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. main.ipynb is the main file to run the class and functions.
+2. top_words method takes the tweet from the user and find the top 20 important words.
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
