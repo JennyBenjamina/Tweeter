@@ -28,5 +28,5 @@ GitHub Pages
 4. get_my_tweets method grabs all the tweets from my homepage twitter.
 5. to_graph method creates a graph with the dataframe given.
 
-* api key and token is necessary to run these programs. 
+* api key and token are necessary to run these programs. 
 * They are attainable here: https://developer.twitter.com/en
