@@ -1,5 +1,5 @@
 ### jennybenjamina.github.io
-GitHub Pages
+PIC 16A Final 
 
 # Pic 16A Tweeter (Project Name)
 ## Authors 
